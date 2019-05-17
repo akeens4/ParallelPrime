@@ -45,9 +45,9 @@ public class NewOperaion {
         return firstValue % secondValue;
     }
     public int power() {
-        int c = 1;
+        int multiplier = 1;
         for(int i = 0; i < secondValue;i++){
-             c = c * firstValue;
+             multiplier = multiplier * firstValue;
              
         }   
         return c;     
